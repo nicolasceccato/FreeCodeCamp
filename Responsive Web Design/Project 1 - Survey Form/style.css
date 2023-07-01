@@ -46,9 +46,17 @@ option {
 }
 
 
+
 input[type="checkbox"] {
     width: 30px;
     height: 15px;
+}
+
+input[type="submit"] {
+    width: 300px;
+    height: 15px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .form-group {
