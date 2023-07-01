@@ -2,37 +2,93 @@
 <html lang="en">
 
 <head>
-    <title></title>
+    <title>Survey Form</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" />
 </head>
 
-<body></body>
-<h1 id="title">freeCodeCamp Survey Form</h1>
-<p id="description">Thank you for taking the time to help us improve the platform</p>
-<form id="survey-form">
-    <label id="name-label" for="name">Name <input id="name" type="text" required placeholder="Name"></label>
-    <label id="email-label" for="email">Email <input id="email" type="email" required placeholder="email"></label>
-    <label id="number-label" for="number">Number <input id="number" type="number" min="0" max="100" required
-            placeholder="Number"></label>
-    <label for="dropdown">Which option best describes your current role? <select id="dropdown" name="dropdown">
-            <option value="" class="name">Select one</option>
-            <option value="1" class="name">Student</option>
-            <option value="2" class="name">Full Time Job</option>
-            <option value="3" class="name">Full Time Learner</option>
-            <option value="4" class="name">Prefer Not To Say</option>
-            <option value="5" class="name">Other</option>
-        </select></label>
-    <p>Would you recommend freeCodeCamp to a friend?</p>
-    <label for="recommend">YES<input id="recommend" type="radio" name="recommend" class="inline"></label>
-    <label for="no-recommend">NO<input id="no-recommend" type="radio" name="recommend" class="inline"></label>
-    <p>What would you like to see improved? (Check all that apply) </p>
-    <label for="checkboxA">Option A<input id="checkboxA" type="checkbox" value="1"> </label>
-    <label for="checkboxB">Option B<input id="checkboxB" type="checkbox" value="2"> </label>
-    <label for="checkboxC">Option C<input id="checkboxC" type="checkbox" value="3"> </label>
-    <label for="textarea">Describe your bio <textarea id="textarea" name="textarea" rows="3" cols="30"
-            placeholder="I like coding on the beach..."></textarea></label>
-    <input id="submit" type="submit" value="Submit">
-
-</form>
-
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+        <div class="form-group">
+            <label id="name-label" for="name">
+                Name
+                <input id="name" type="text" required placeholder="Name">
+            </label>
+        </div>
+        <div class="form-group">
+            <label id="email-label" for="email">
+                Email
+                <input id="email" type="email" required placeholder="email">
+            </label>
+        </div>
+        <div class="form-group">
+            <label id="number-label" for="number">
+                Number
+                <input id="number" type="number" min="0" max="100" required placeholder="Number">
+            </label>
+        </div>
+        <div class="form-group">
+            <label for="dropdown">
+                Which option best describes your current role?
+                <select id="dropdown" name="dropdown">
+                    <option disabled selected value>Select one</option>
+                    <option value="1">Student</option>
+                    <option value="2">Full Time Job</option>
+                    <option value="3">Full Time Learner</option>
+                    <option value="4">Prefer Not To Say</option>
+                    <option value="5">Other</option>
+                </select>
+            </label>
+        </div>
+        <div class="form-group">
+            <p>Would you recommend freeCodeCamp to a friend?</p>
+            <div class="recommend">
+                <label for="recommend">
+                    YES
+                    <input id="recommend" type="radio" name="recommend" class="inline">
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="no-recommend">
+                    NO
+                    <input id="no-recommend" type="radio" name="recommend" class="inline">
+                </label>
+            </div>
+        </div>
+        <div class="form-group">
+            <p>What would you like to see improved? (Check all that apply) </p>
+            <div class="form-group">
+                <label for="checkboxA">
+                    Challenges
+                    <input id="checkboxA" type="checkbox" value="1">
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="checkboxB">
+                    Back End Projects
+                    <input id="checkboxB" type="checkbox" value="2">
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="checkboxC">
+                    Front End Projects
+                    <input id="checkboxC" type="checkbox" value="3">
+                </label>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="textarea">
+                Any comments or suggestions?
+                <textarea id="textarea" name="textarea" rows="3" cols="30" placeholder="Enter your comment here...">
+            </textarea>
+            </label>
+        </div>
+        <div class="form-group">
+            <input id="submit" type="submit" value="Submit">
+        </div>
+    </form>
+</body>
 
 </html>
