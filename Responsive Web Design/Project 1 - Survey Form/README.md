@@ -1,5 +1,11 @@
 # Projeto 1: Survey Form da Certificação Responsive Web Design
-Este foi o meu projeto 1 do currículo de Certificação Responsive Web Design da plataforma FreeCodeCamp. O objetivo desse projeto era criar um formulário de pesquisa responsivo utilizando HTML e CSS.
+Este foi o meu projeto 1 do currículo de Certificação Responsive Web Design da plataforma FreeCodeCamp. O objetivo desse projeto era criar um formulário de pesquisa responsivo utilizando HTML e CSS. Até chegar a este projeto foram feitos 4 cursos introdutórios ao HTML5 e CSS3:<br>
+1.Learn HTML by Building a Cat Photo App
+2.Learn Basic CSS by Building a Cafe Menu
+3.Learn CSS Colors by Building a Set of Colored Markers
+4.Learn HTML Forms by Building a Registration Form
+
+Após esses 4 cursos foi realizado o primeiro projeto dos necessários para a certificação.
 
 ## Descrição do Projeto
 Neste projeto, eu criei um formulário de pesquisa que coleta informações dos usuários sobre um determinado tema. O formulário possui uma variedade de campos, como campos de texto, caixas de seleção, botões de rádio e um campo de comentário. O objetivo principal era fazer um formulário utilizando as habilidade aprendidas até então na certificação e que atendesse aos critérios estabelecidos pela plataforma. Os objetivos eram:
