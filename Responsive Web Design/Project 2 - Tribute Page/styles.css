@@ -1,0 +1,34 @@
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    background-color: green;
+}
+
+h1,
+p {
+    justify-content: center;
+
+    text-align: center;
+
+}
+
+body {
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
