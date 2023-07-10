@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <header>JS DOCS</header>
+        <ul>
+            <li>
+                <a class="nav-link" href="#Introduction_to_JS">Introduction to JS</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#Variables_in_JS">Variables in JS</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#Data_types">Data types</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#Javascript_and_Java">Javascript and Java</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#Function_declarations">Function declarations</a>
+            </li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section id="Introduction_to_JS" class="main-section">
+            <header>Introduction to JS</header>
+            <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight
+                language. Inside a host environment (for example, a web browser), JavaScript can be connected to the
+                objects of its environment to provide programmatic control over them.</p>
+            <p>JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of
+                language elements such as operators, control structures, and statements. Core JavaScript can be extended
+                for a variety of purposes by supplementing it with additional objects.</p>
+            <pre><code>alert("Hello, World")</code></pre>
+        </section>
+        <section id="Variables_in_JS" class="main-section">
+            <header>Variables in JS</header>
+            <p>You use variables as symbolic names for values in your application. The names of variables, called
+                identifiers, conform to certain rules</p>
+            <p>A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($); subsequent
+                characters can also be digits (0-9). Because JavaScript is case sensitive, letters include the
+                characters "A" through "Z" (uppercase) and the characters "a" through "z" (lowercase).</p>
+            <pre><code>let y = 13</code></pre>
+        </section>
+        <section id="Data_types" class="main-section">
+            <header>Data types</header>
+            <p>The latest ECMAScript standard defines seven data types:</p>
+            <p>
+            <ul>
+                <li>Boolean. true and false.</li>
+                <li>null. A special keyword denoting a null value. Because JavaScript is case-sensitive, null is not the
+                    same as Null, NULL, or any other variant.</li>
+                <li>undefined. A top-level property whose value is undefined.</li>
+                <li>Number. 42 or 3.14159.</li>
+                <li>String. "Howdy"</li>
+                <li>Symbol (new in ECMAScript 2015). A data type whose instances are unique and immutable.</li>
+                <li>Object.</li>
+            </ul>
+            </p>
+            <pre><code></code></pre>
+        </section>
+        <section id="Javascript_and_Java" class="main-section">
+            <header>Javascript and Java</header>
+            <p>JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript
+                language resembles Java but does not have Java's static typing and strong type checking. JavaScript
+                follows most Java expression syntax, naming conventions and basic control-flow constructs which was the
+                reason why it was renamed from LiveScript to JavaScript.</p>
+            <p>In contrast to Java's compile-time system of classes built by declarations, JavaScript supports a runtime
+                system based on a small number of data types representing numeric, Boolean, and string values.
+                JavaScript has a prototype-based object model instead of the more common class-based object model. The
+                prototype-based model provides dynamic inheritance; that is, what is inherited can vary for individual
+                objects. JavaScript also supports functions without any special declarative requirements. Functions can
+                be properties of objects, executing as loosely typed methods.</p>
+            <p>JavaScript is a very free-form language compared to Java. You do not have to declare all variables,
+                classes, and methods. You do not have to be concerned with whether methods are public, private, or
+                protected, and you do not have to implement interfaces. Variables, parameters, and function return types
+                are not explicitly typed.</p>
+        </section>
+        <section id="Function_declarations" class="main-section">
+            <header>Function declarations</header>
+            <p>A function definition (also called a function declaration, or function statement) consists of the
+                function keyword, followed by:</p>
+            <ul>
+                <li>The name of the function.</li>
+                <li>A list of arguments to the function, enclosed in parentheses and separated by commas.</li>
+                <li>The JavaScript statements that define the function, enclosed in curly brackets, { }.</li>
+            </ul>
+
+            <pre><code>function square(number) { return number * number; }</code></pre>
+            <pre><code>return number * number;</code></pre>
+        </section>
+        <footer>
+            <p>Thank you!</p>
+        </footer>
+    </main>
+
+</body>
+
+</html>
