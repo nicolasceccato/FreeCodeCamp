@@ -6,7 +6,7 @@ Antes do projeto de certificação precisei fazer os seguintes cursos:
 3.Learn Responsive Web Design by Building a Piano
 
 
-Após esses 4 cursos foi realizado o terceiro projeto dos necessários para a certificação.
+Após esses 3 cursos foi realizado o terceiro projeto dos necessários para a certificação.
 
 ## Descrição do Projeto
 Neste projeto, eu criei uma página de documentação técnica de JavaScript. O objetivo principal era fazer uma página utilizando as habilidade aprendidas até então na certificação e que atendesse aos critérios estabelecidos pela plataforma. Os objetivos eram:

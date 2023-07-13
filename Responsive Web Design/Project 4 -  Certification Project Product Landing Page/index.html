@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500&family=Montserrat:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+            <div id="logo-container">
+                <img id="header-img"
+                    src="https://img.freepik.com/premium-vector/book-care-logo-template-design-vector-emblem-design-concept-creative-symbol-icon_20029-171.jpg?w=826"
+                    alt="book-store-logo">
+                <span class="the-products">Classic Books</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#audio" class="nav-link">Free Audio Book</a></li>
+                <li><a href="#for_sale" class="nav-link">For Sale</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <section id="email-section">
+        <h2>BEAUTIFULLY WRITTEN MASTERPIECES</h2>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <input type="email" required placeholder="Enter your email" id="email" name="email">
+            <input type="submit" id="submit" value="GET STARTED">
+        </form>
+    </section>
+    <section id="features">
+        <div class="feature">
+            <i class="ri-file-paper-line ri-4x icon"></i>
+            <div>
+                <h2>Premium Materials</h2>
+                <p>
+                    Our books use the best paper which is sourced from plants that will increase the longevity of your
+                    purchase
+                </p>
+            </div>
+        </div>
+        <div class="feature">
+            <i class="ri-truck-fill ri-4x icon"></i>
+            <div>
+                <h2>Daily Shipping</h2>
+                <p>
+                    We will delivery you in the same day that you finish your purchase. And if you don't like it we'll
+                    return your money.
+                </p>
+            </div>
+        </div>
+        <div class="feature">
+            <i class="ri-book-open-line ri-4x icon"></i>
+            <div>
+                <h2>Quality Books Only</h2>
+                <p>
+                    Our books are the best in the market.
+                </p>
+            </div>
+        </div>
+
+    </section>
+    <section id="audio">
+        <iframe id="video" height="400" src="https://www.youtube.com/embed/YKAfKprBXQc" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </section>
+    <section id="for_sale">
+        <h2>For Sale</h2>
+        <div class="product-cards">
+            <div class="card">
+                <div class="product-image product1"></div>
+                <div class="inner-card">
+                    <div class="author">Dale Carnegie</div>
+                    <h1 class="header">How to Win Friends & Influence People</h1>
+                    <p class="content">You can go after the job you want--and get it!
+                        You can take the job you have--and improve it!
+                        You can take any situation--and make it work for you!
+                        Dale Carnegie's rock-solid, time-tested advice has carried countless people up the ladder of
+                        success in their business and personal lives. </p>
+                    <div class="flex">
+                        <p class="main-price">$16.12</p>
+                        <p class="old-price">$19.29</p>
+                    </div>
+                    <button class="add">Add to Cart</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="product-image product2"></div>
+                <div class="inner-card">
+                    <div class="author">Aldous Huxley</div>
+                    <h1 class="header">Brave New World</h1>
+                    <p class="content">Brave New World is a searching vision of an unequal, technologically-advanced
+                        future where humans are genetically bred, socially indoctrinated, and pharmaceutically
+                        anesthetized to passively uphold an authoritarian ruling order--all at the cost of our freedom,
+                        full humanity, and perhaps also our souls.</p>
+                    <div class="flex">
+                        <p class="main-price">$16.12</p>
+                        <p class="old-price">$19.29</p>
+                    </div>
+                    <button class="add">Add to Cart</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="product-image product3"></div>
+                <div class="inner-card">
+                    <div class="author">William Golding</div>
+                    <h1 class="header">Lord of the Flies</h1>
+                    <p class="content">William Golding's compelling story about a group of very ordinary small boys
+                        marooned on a coral island has become a modern classic. At first it seems as though it is all
+                        going to be great fun; but the fun before long becomes furious and life on the island turns into
+                        a nightmare of panic and death. </p>
+                    <div class="flex">
+                        <p class="main-price">$16.12</p>
+                        <p class="old-price">$19.29</p>
+                    </div>
+                    <button class="add">Add to Cart</button>
+                </div>
+            </div>
+            <div class="card"></div>
+            <div class="card"></div>
+        </div>
+    </section>
+</body>
+
+</html>
