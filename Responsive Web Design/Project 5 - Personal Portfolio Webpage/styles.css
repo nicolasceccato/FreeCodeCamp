@@ -1,0 +1,81 @@
+:root {
+    --neutral: #232946;
+    --base-100: #fffffe;
+    --neutral-focus: #121629;
+    --accent: #eebbc3;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Noto Serif", sans-serif;
+    text-align: center;
+    background-color: var(--neutral);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--neutral);
+    padding: 20px 0;
+    font-size: 20px;
+    border-bottom: 1px solid var(--neutral-focus);
+
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    padding: 0 10px;
+    color: var(--base-100);
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+section {
+    min-height: 100vh;
+    padding: 70px 0;
+}
+
+#welcome-section {
+    background-color: var(--neutral);
+    color: var(--base-100);
+    display: flex;
+    flex-direction: column;
+}
+
+#welcome-section h1 {
+    margin-top: 30vh;
+}
+
+#welcome-section p {
+    color: var(--accent);
+    font-size: 25px;
+    margin: 25px 0;
+    font-style: italic;
+}
