@@ -1,5 +1,5 @@
 # Product Landing Page
-Este foi o meu projeto 34 do currículo de Certificação Responsive Web Design da plataforma FreeCodeCamp. O objetivo desse projeto era criar uma página de vendas para um produto.<br>
+Este foi o meu projeto 4 do currículo de Certificação Responsive Web Design da plataforma FreeCodeCamp. O objetivo desse projeto era criar uma página de vendas para um produto.<br>
 Antes do projeto de certificação precisei fazer os seguintes cursos:
 1.Learn CSS Variables by Building a City Skyline
 2.Learn CSS Grid by Building a Magazine

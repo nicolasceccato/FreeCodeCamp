@@ -1,0 +1,3 @@
+# Learn CSS Transforms by Building a Penguin
+
+Durante o curso "Learn CSS Transforms by Building a Penguin", construiu-se um pinguim utilizando transformações CSS. Este curso me permitiu explorar e aplicar várias técnicas de transformação CSS para dar vida ao pinguim. O objetivo principal deste curso foi ganhar experiência prática com as transformações CSS e compreender suas capacidades. Ao construir um pinguim usando transformações CSS.
